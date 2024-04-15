@@ -64,6 +64,7 @@ a {
   display: flex;
   align-items: center;
   font-size: medium;
+  color: black;
 }
 .app__input {
   border-radius: 4px 0 0 4px;
