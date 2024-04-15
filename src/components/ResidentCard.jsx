@@ -25,7 +25,7 @@ const ResidentCard = ({url}) => {
         <ul className='resident__list'>
             <li className='resident__item'><span>Origin</span><span>{resident?.origin.name}</span></li>
             <li className='resident__item'><span>Species</span><span>{resident?.species}</span></li>
-            <li className='resident__item'><span>Appearing on episodes</span><span>{resident?.length}</span></li>
+            <li className='resident__item'><span>Appearing on episodes</span><span>{resident?.episode}</span></li>
         </ul>
     </article>
   )
