@@ -69,11 +69,13 @@ function App() {
                   <ResidentCard key={resident} url={resident} />
                 ))}
               </div>
-              <div className='pagination'>
+              {totalPages > 1 && (
+                <div className='pagination'>
                   <button onClick={() => pages(currentPage - 1)}>Previous</button>
                   <span>{currentPage} of {totalPages}</span>
                   <button onClick={() => pages(currentPage + 1)}>Next</button>
-              </div>
+                </div>
+              )}
             </>
           )}
         </div>
