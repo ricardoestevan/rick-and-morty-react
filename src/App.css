@@ -1,0 +1,91 @@
+@import url('https://fonts.cdnfonts.com/css/schwifty');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap'); */
+                
+/* --- Reset ---- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gray;
+  color: white;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+}
+button {
+  border: none;
+  padding: 0 15px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+
+/* ---APP---*/
+.app {
+  background-color: #05292e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Schwifty';
+  min-height: 100vh;
+}
+.app__img{
+  background-size: cover;
+  width: 100vw;
+}
+.app__container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+  justify-content:space-evenly;
+}
+.app__form {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  font-size: medium;
+}
+.app__input {
+  border-radius: 4px 0 0 4px;
+}
+.app__btn {
+  background-color: #71A821;
+  color: white;
+  /* border-radius: 0 5px 0 5px 0; */
+  border-radius: 0 4px 4px 0;
+  font-size: 16.5px;
+}
+.app__btn:hover{
+  filter: brightness(1.1);
+}
+.pagination{
+  margin-top: 20px;
+}
+.pagination button{
+  background-color: #71ab21;
+  border: none;
+  color: white;
+  margin: 10px 7px;
+  border-radius: 4px;
+  font-size: 16.5px;
+}
